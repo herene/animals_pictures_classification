@@ -1,5 +1,5 @@
 # animals_pictures_classification
-数字图像处理的作业
+##数字图像处理的作业
 参考花卉图像分类改编的
 weights文件夹里放的权重文件不一定能直接下载，最好提前下载下来
 features.h5文件太大了无法上传，可以通过运行extract_features.py自己生成
