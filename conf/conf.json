@@ -1,0 +1,16 @@
+{
+	"model"           : "mobilenet",
+	"weights"         : "weights/mobilenet_1_0_224_tf_no_top.h5",
+	"include_top"     : false,
+
+	"train_path"      : "dataset/train",
+	"test_path"		  : "dataset/test",
+	"features_path"   : "output/animals8/mobilenet/features.h5",
+	"labels_path"     : "output/animals8/mobilenet/labels.h5",
+	"results"         : "output/animals8/mobilenet/results_0.1.txt",
+	"classifier_path" : "output/animals8/mobilenet/classifier.pickle",
+	"model_path"	  : "output/animals8/mobilenet/model",
+
+	"test_size"       : 0.10,
+	"num_classes"     : 8
+}
